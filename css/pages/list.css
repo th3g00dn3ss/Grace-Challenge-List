@@ -139,7 +139,7 @@
     text-decoration: underline;
 }
 .page-list .list tr:first-child .rank {
-    color: var(--color-primary);
+    color: #ffffff;
     font-weight: 900;
 }
 .page-list .list tr:first-child .level button {
