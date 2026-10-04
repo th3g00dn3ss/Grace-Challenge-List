@@ -170,3 +170,122 @@
         padding-right: 0;
     }
 }
+/* =========================
+   GRACE CHALLENGE RULES
+   ========================= */
+
+.rules-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.rules-hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    background: var(--color-primary);
+    color: white;
+}
+
+.rules-badge {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    margin-bottom: 1rem;
+    opacity: 0.85;
+}
+
+.rules-hero h1 {
+    margin: 0 0 0.75rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.rules-hero p {
+    margin: 0 auto;
+    max-width: 650px;
+    opacity: 0.9;
+}
+
+.rules-notice {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background: var(--color-secondary);
+}
+
+.rules-notice h2 {
+    margin-top: 0;
+}
+
+.rules-notice p {
+    margin-bottom: 0;
+}
+
+.rules-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+.rules-card {
+    position: relative;
+    padding: 1.75rem;
+    border-radius: 1rem;
+    background: var(--color-background);
+    border: 2px solid var(--color-border);
+}
+
+.rules-number {
+    font-size: 0.8rem;
+    font-weight: 900;
+    opacity: 0.5;
+}
+
+.rules-card h2 {
+    margin: 0.5rem 0 1rem;
+}
+
+.rules-card ul {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+.rules-card li {
+    margin-bottom: 0.65rem;
+    line-height: 1.5;
+}
+
+.rules-footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2.5rem 1.5rem;
+    border-radius: 1.25rem;
+    background: var(--color-secondary);
+}
+
+.rules-footer h2 {
+    margin-top: 0;
+}
+
+.rules-footer .nav__cta {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .rules-page {
+        padding: 2rem 1rem;
+    }
+
+    .rules-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .rules-grid {
+        grid-template-columns: 1fr;
+    }
+}
